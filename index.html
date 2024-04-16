@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drinkle</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/generics.css" />
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <script src="/scripts/index.js" type="module"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo-wrapper">
+      <img src="/images/drinkle-p1.png" width="250" alt="A neon Drinkle logo with martini glass and wine bottle."
+        class="logo logo-one" />
+      <img src="/images/drinkle-p2.png" width="250" alt="A neon Drinkle logo with martini glass and wine bottle."
+        class="logo logo-two" />
+    </div>
+  </header>
+  <div class="rule"></div>
+  <main>
+    <div class="score-wrapper">
+      <div class="scoreboard">
+        <span class="score score-player-one">0</span>
+        <span class="score score-player-two">0</span>
+      </div>
+    </div>
+    <div class="lozenge-wrapper">
+      <div class="lozenge">
+        <p>Player One</p>
+      </div>
+    </div>
+    <div class="game-board">
+      <div class="letter-row">
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+      </div>
+      <div class="letter-row">
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+      </div>
+      <div class="letter-row">
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+      </div>
+      <div class="letter-row">
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+      </div>
+      <div class="letter-row">
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+      </div>
+      <div class="letter-row">
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+        <div class="letter-box"></div>
+      </div>
+    </div>
+    <div class="keyboard-container">
+      <div class="first-row">
+        <button class="keyboard-button" data-key="Q">Q</button>
+        <button class="keyboard-button" data-key="W">W</button>
+        <button class="keyboard-button" data-key="E">E</button>
+        <button class="keyboard-button" data-key="R">R</button>
+        <button class="keyboard-button" data-key="T">T</button>
+        <button class="keyboard-button" data-key="Y">Y</button>
+        <button class="keyboard-button" data-key="U">U</button>
+        <button class="keyboard-button" data-key="I">I</button>
+        <button class="keyboard-button" data-key="O">O</button>
+        <button class="keyboard-button" data-key="P">P</button>
+      </div>
+      <div class="second-row">
+        <button class="keyboard-button" data-key="A">A</button>
+        <button class="keyboard-button" data-key="S">S</button>
+        <button class="keyboard-button" data-key="D">D</button>
+        <button class="keyboard-button" data-key="F">F</button>
+        <button class="keyboard-button" data-key="G">G</button>
+        <button class="keyboard-button" data-key="H">H</button>
+        <button class="keyboard-button" data-key="J">J</button>
+        <button class="keyboard-button" data-key="K">K</button>
+        <button class="keyboard-button" data-key="L">L</button>
+      </div>
+      <div class="third-row">
+        <button class="keyboard-button" data-key="delete">Delete</button>
+        <button class="keyboard-button" data-key="Z">Z</button>
+        <button class="keyboard-button" data-key="X">X</button>
+        <button class="keyboard-button" data-key="C">C</button>
+        <button class="keyboard-button" data-key="V">V</button>
+        <button class="keyboard-button" data-key="B">B</button>
+        <button class="keyboard-button" data-key="N">N</button>
+        <button class="keyboard-button" data-key="M">M</button>
+        <button class="keyboard-button" data-key="enter">Enter</button>
+      </div>
+    </div>
+    <div class="play-again-button-wrapper">
+      <button class="play-again-button bottom-button">PLAY AGAIN!</button>
+      <button class="reset-score-button bottom-button">RESET SCORE</button>
+    </div>
+  </main>
+</body>
+
+</html>
